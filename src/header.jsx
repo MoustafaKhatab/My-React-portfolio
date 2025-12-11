@@ -7,7 +7,7 @@ import MyPhoto from './photos/MyPhoto.jpg'
 
 
 
-const [LinkedIn,Upwork,Github] = ["","https://www.upwork.com/freelancers/~01984c0a71ff9e2d88","https://github.com/CodX48"]
+const [LinkedIn,Upwork,Github] = ["","https://www.upwork.com/freelancers/~01984c0a71ff9e2d88","https://github.com/MoustafaKhatab"]
 
 function _Header(){
     return(
