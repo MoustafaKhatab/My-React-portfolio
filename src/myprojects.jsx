@@ -58,6 +58,7 @@ function ReposList() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
+                    {console.log(Repos.homepage)}
                   {(Repos.name).toUpperCase()}
                 </a>
                 <div className="max-sm:mt-3  p-1 w-[50%]">
