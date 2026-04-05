@@ -54,11 +54,10 @@ function ReposList() {
               <div className="w-[100%] h-full lg:flex lg:flex-row lg:justify-between lg:items-center gap-5 md:flex-col md:items-start md:justify-center sm:block max-sm:block">
                 <a
                   className="min-w-40 text-1xl font-semibold text-zinc-950 hover:text-pink-500 transition-all duration-300 dark:text-zinc-50" 
-                  href={Repos.homepage ? Repos.homepage : Repos.html_url}
+                  href={Repos.name == "FahimniNow" ? "https://www.fahimninow.com" : Repos.html_url}
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                    {console.log(Repos.homepage)}
                   {(Repos.name).toUpperCase()}
                 </a>
                 <div className="max-sm:mt-3  p-1 w-[50%]">
